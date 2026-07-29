@@ -24,3 +24,23 @@ if ($dinheiro < 3) {
 }
 
 // atividade 3
+$numero1 = 10;
+$numero2 = 20;
+$operacao = "+";
+
+switch($operacao) {
+    case "+":
+        echo $numero1 + $numero2, "\n";
+        break;
+    case "-":
+        echo $numero1 - $numero2,"\n";
+        break;
+    case "*":
+        echo $numero1 * $numero2,"\n";
+        break;
+    case "/":
+        echo $numero1 / $numero2,"\n";
+        break;
+    default:
+        echo "operação invalida";
+}
