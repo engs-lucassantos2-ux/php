@@ -86,3 +86,16 @@ $resultado = operacoes(10, 4);
 echo "Soma: ", $resultado["soma"], "\n";
 echo "Subtração: ", $resultado["subtracao"], "\n";
 echo $resultado["frase"], "\n";
+
+//atividade 8
+$memes = [
+    "Trollface",
+    "Nyan Cat",
+    "Doge",
+    "Distracted Boyfriend",
+    "Caetano Veloso Não dá para entender"
+];
+
+foreach ($memes as $meme) {
+    echo $meme, "\n";
+}
