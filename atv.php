@@ -126,3 +126,4 @@ echo "Nome: ", $pessoa["nome"], "\n";
 echo "Idade: ", $pessoa["idade"], "\n";
 echo "Cidade: ", $pessoa["cidade"], "\n";
 echo "Tchola: R$ ", $pessoa["tchola"], "\n";
+
