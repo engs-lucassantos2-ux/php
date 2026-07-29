@@ -61,3 +61,10 @@ foreach($numeros as $numero){
         echo "$numero x $i = ", $numero * $i, "\n";
     }
 }
+
+//atividade 6
+function saudacao($nome){
+    echo "Olá $nome! \n";
+}
+
+saudacao("Dionatan Lindu");
