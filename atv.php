@@ -51,3 +51,13 @@ for ($i = 0; $i <= 100; $i++){
         echo $i, " ";
     }
 }
+
+//atividade 5
+$numeros = [4,7, 12879.5];
+
+foreach($numeros as $numero){
+     echo "\nTabuada do $numero:\n";
+    for ($i = 1; $i <= 10; $i++) {
+        echo "$numero x $i = ", $numero * $i, "\n";
+    }
+}
