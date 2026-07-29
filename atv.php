@@ -116,8 +116,8 @@ foreach ($racasPapagaio as $raca) {
 
 //atividade 10
 $pessoa = [
-    "nome" => "João",
-    "idade" => 20,
+    "nome" => "Lucas",
+    "idade" => 19,
     "cidade" => "Guarapuava",
     "tchola" => 500.00
 ];
